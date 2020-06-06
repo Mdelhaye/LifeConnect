@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list_espaces"
+            android:icon="@drawable/ic_list"
+            android:title="@string/activity_menu_drawer_nav_list_espaces" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/activity_menu_drawer_nav_calendar" />
+    </group>
+
+    <item android:title="@string/activity_menu_drawer_group_title">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/activity_menu_drawer_nav_settings" />
+
+            <item
+                android:id="@+id/nav_upload"
+                android:icon="@drawable/ic_upload"
+                android:title="@string/activity_menu_drawer_nav_upload" />
+        </menu>
+    </item>
+
+</menu>

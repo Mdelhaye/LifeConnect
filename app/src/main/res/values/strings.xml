@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="activity_main_title">Bienvenue sur Life\'Connect!</string>
+    <string name="activity_main_description">Veuillez choisir votre compte local</string>
+
+    <string name="main_activity_textview_scrollview">%1$s %2$s</string>
+    <string name="main_activity_toggle_button_new">Nouvel utilisateur</string>
+    <string name="main_activity_toggle_button_selected">Connexion</string>
+    <string name="main_activity_dialog_title">%1$s :</string>
+    <string name="main_activity_dialog_button_positive">Ok</string>
+    <string name="main_activity_dialog_button_negative">Annuler</string>
+    <string name="main_activity_firstname">Prénom</string>
+    <string name="main_activity_lastname">Nom</string>
+    <string name="main_activity_gender_male">Homme</string>
+    <string name="main_activity_gender_female">Femme</string>
+    <string name="main_activity_age">Age</string>
+
+    <!--Activity Sing In -->
+    <string name="activity_sign_in_title">Connexion Life\'Connect\nen ligne!</string>
+    <string name="activity_sign_in_input_email_hint">Email</string>
+    <string name="activity_sign_in_input_password_hint">Mot de passe</string>
+    <string name="activity_sign_in_button_sign_in">Se connecter</string>
+    <string name="activity_sign_in_button_sign_up">S\'inscrire</string>
+
+    <string name="sign_in_activity_login_success">Connexion réussie!</string>
+    <string name="sign_in_activity_login_fail">Adresse e-mail ou mot de passe invalide!</string>
+
+    <!-- Activity Sign Up -->
+    <string name="activity_sign_up_title">Inscription Life\'Connect en ligne</string>
+    <string name="activity_sign_up_description">Choisissez vos identifiants pour les fusionner avec votre compte local</string>
+    <string name="activity_sign_up_input_email_hint">Email</string>
+    <string name="activity_sign_up_input_password_hint">Mot de passe</string>
+    <string name="activity_sign_up_input_password_confirm_hint">Confirmer le mot de passe</string>
+    <string name="activity_sign_up_button_sign_up">Inscription</string>
+
+    <string name="sign_up_activity_sign_up_success">Inscription réussie!</string>
+    <string name="sign_up_activity_sign_up_fail">Un compte avec cette adresse email existe peut être déjà!</string>
+    <string name="sign_up_activity_password_different">Les mots de passe ne sont pas identiques!</string>
+
+    <!-- Layout Menu Drawer -->
+    <string name="activity_menu_drawer_nav_list_espaces">Liste des espaces</string>
+    <string name="activity_menu_drawer_nav_calendar">Calendrier</string>
+    <string name="activity_menu_drawer_group_title">Préfèrences</string>
+    <string name="activity_menu_drawer_nav_settings">Paramètres du compte</string>
+    <string name="activity_menu_drawer_nav_upload">Sauvegarde en ligne</string>
+
+    <!-- Mobile Navigation -->
+    <string name="mobile_navigation_nav_list_espaces">Liste des espaces</string>
+    <string name="mobile_navigation_nav_calendar">Calendrier</string>
+    <string name="mobile_navigation_nav_settings">Paramètres du compte</string>
+    <string name="mobile_navigation_nav_upload">Sauvegarde en ligne</string>
+
+    <!-- Fragment Settings -->
+    <string name="fragment_settings_textview_group_top_title">Vos identifiants</string>
+    <string name="fragment_settings_textview_email_title">Adresse e-mail</string>
+    <string name="fragment_settings_textview_paswword_title">Mot de passe</string>
+    <string name="fragment_settings_textview_group_bottom_title">A propos de vous :</string>
+    <string name="fragment_settings_textview_firstname_title">Prénom</string>
+    <string name="fragment_settings_textview_lastname_title">Nom</string>
+    <string name="fragment_settings_textview_gender_title">Homme / Femme</string>
+    <string name="fragment_settings_textview_age_title">Age</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_fragment_dialog_title">%1$s :</string>
+    <string name="settings_fragment_dialog_button_positive">Ok</string>
+    <string name="settings_fragment_dialog_button_negative">Annuler</string>
+    <string name="settings_fragment_male">Homme</string>
+    <string name="settings_fragment_female">Femme</string>
+    <string name="settings_fragment_update_success">Mise à jour effectuée!</string>
+    <string name="settings_fragment_update_fail">Problème avec la mise à jour. Veuillez recommencer ultérieurement.</string>
+
+    <!-- Menu Activity -->
+    <string name="menu_activity_textview_top">%1$s %2$s</string>
+    <string name="menu_activity_textview_bottom">%1$s, %2$s ans</string>
+
+
+    <!-- Used in AndroidManifest.xml -->
+    <string name="app_name">LifeConnect</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+
+    <string name="indicateur_prompt">Choisir un indicateur :</string>
+    <string-array name="indicateur_array">
+        <item>Texte</item>
+        <item>Barre de progression</item>
+        <item>Heure + texte modifiable</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+
+    <string-array name="empty_array" />
+
+</resources>

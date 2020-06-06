@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:key="LoginInformations"
+        android:summary=""
+        android:title="Vos identifiants :"
+        >
+
+        <EditTextPreference
+            android:key="Email"
+            android:title="Adresse e-mail"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <EditTextPreference
+            android:key="Password"
+            android:title="Mot de passe"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="PersonnalInformations"
+        android:title="A propos de vous :">
+
+        <EditTextPreference
+            android:key="FirstName"
+            android:title="Prénom"
+            android:singleLine="true" />
+
+        <EditTextPreference
+            android:key="LastName"
+            android:title="Nom"
+            android:singleLine="true" />
+
+        <ListPreference
+            android:key="Gender"
+            android:title="Homme / Femme"
+            android:entries="@array/gender_array"
+            android:entryValues="@array/gender_array" />
+
+        <EditTextPreference
+            android:key="Age"
+            android:title="Age"
+            android:inputType="number"
+            android:singleLine="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

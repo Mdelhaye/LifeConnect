@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Liste des interfaces & Paramètres -->
+<item name="newCardView" type="id"/>
+<item name="newCardViewTitle" type="id"/>
+<item name="newCardViewContent" type="id"/>
+<item name="newCardViewLinearLayout" type="id"/>
+<item name="newCardViewButtonModify" type="id"/>
+<item name="newCardViewButtonApply" type="id"/>
+
+<!-- Nouveau indicateurx -->
+
+<!-- case 0 : textView -->
+<item name="newTextView" type="id"/>
+<item name="nameNewTextView" type="id"/>
+<item name="descriptionNewTextView" type="id"/>
+<item name="isTitleNewTextView" type="id"/>
+
+<!-- case 1 : progressBar -->
+<item name="newProgressBar" type="id"/>
+<item name="nameNewProgressBar" type="id"/>
+<item name="descriptionNewProgressBar" type="id"/>
+<item name="objectifNewProgressBar" type="id"/>
+
+<!-- case 2 : date -->
+<item name="newTimeView" type="id"/>
+<item name="newEditTime" type="id"/>
+<item name="nameNewTimeView" type="id"/>
+<item name="descriptionNewTimeView" type="id"/>
+<item name="timeNewTimeView" type="id"/>
+<item name="indiceNewTimeView" type="id"/>
+
+</resources>

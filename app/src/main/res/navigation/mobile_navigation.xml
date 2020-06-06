@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_list_espaces">
+
+    <fragment
+        android:id="@+id/nav_list_espaces"
+        android:name="com.example.lifeconnect.ui.listEspaces.ListEspacesFragment"
+        android:label="@string/mobile_navigation_nav_list_espaces"
+        tools:layout="@layout/fragment_list_espaces" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.lifeconnect.ui.calendar.CalendarFragment"
+        android:label="@string/mobile_navigation_nav_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.lifeconnect.ui.slideshow.SlideshowFragment"
+        android:label=""
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.lifeconnect.ui.tools.ToolsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.lifeconnect.ui.settings.SettingsFragment"
+        android:label="@string/mobile_navigation_nav_list_espaces"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_upload"
+        android:name="com.example.lifeconnect.ui.upload.UploadFragment"
+        android:label="@string/mobile_navigation_nav_upload"
+        tools:layout="@layout/fragment_upload" />
+</navigation>

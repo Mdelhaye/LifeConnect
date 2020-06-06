@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fragment_upload_title"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/textView_height_title"
+        android:layout_margin="32dp"
+        android:text="Portail upload en ligne"
+        android:textSize="@dimen/textView_textSize_title"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/fragment_upload_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="32dp"
+        android:text="Voici le portail de sauvegarde en ligne."
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/fragment_upload_title"
+        app:layout_constraintBottom_toTopOf="@id/fragment_upload_button_save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/fragment_upload_button_save"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="Sauvegarder"
+        android:textSize="@dimen/button_textSize"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/button_padding" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
