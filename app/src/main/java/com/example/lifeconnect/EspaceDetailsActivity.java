@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lifeconnect.JavaClass.JsonOperation;
 import com.example.lifeconnect.model.Data;
@@ -138,6 +139,9 @@ public class EspaceDetailsActivity extends AppCompatActivity {
                 if (addDataForUser) localDatas.getDataPerUsers().add(dataPerUser);
 
                 jsonOperation.SaveJson(getApplicationContext(), FILENAME_DATA, localDatas);
+
+                Toast toast = Toast.makeText(getApplicationContext(),getResources().getString(R.string.espace_details_activity_update_success), Toast.LENGTH_SHORT);
+                toast.show();
             }
         });
 
